@@ -1,0 +1,347 @@
+@font-face {
+    font-family: "QuickSand";
+    src: url("font/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Honey";
+    src: url("font/HoneyScript-Light.ttf");
+}
+
+@font-face {
+    font-family: "Windy";
+    src: url("font/Windey-Signature.otf");
+}
+
+@font-face {
+    font-family: "Youth";
+    src: url("font/YouthTouchDemoRegular-4VwY.ttf");
+}
+
+* {
+    font-family: "QuickSand";
+    font-size: 14px;
+}
+
+.main-body {
+    background-image: url("Resources/Background_05.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    background-image: url("Resources/Icon_New.svg");
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tittle01 {
+    font-family: "QuickSand";
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.background {
+    background-image: url("Resources/Icon_New.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tittle02 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.label1 {
+    font-size: 18px;
+}
+
+.label2 {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hr-break-1 {
+    border-style: solid;
+    border-color: rgb(218, 218, 218);
+    border-width: 3px;
+}
+
+.logo-img {
+    height: 60px;
+    background-image: url("resources/logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.search-btn {
+    height: 43px;
+}
+
+.link-1 {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.poster-caption {
+    margin-bottom: 150px;
+}
+
+.poster-title {
+    font-size: 50px;
+    color: black;
+}
+
+.poster-text {
+    font-size: 20px;
+    color: rgb(58, 58, 58);
+}
+
+.poster-img-1 {
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.poster-caption-1 {
+    margin-bottom: 70px;
+    margin-right: 250px;
+}
+
+.link2 {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.link2:hover {
+    text-decoration: underline;
+}
+
+.link3 {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link3:hover {
+    text-decoration: underline;
+}
+
+.lbl1 {
+    font-size: 20px;
+}
+
+.pm1 {
+    height: 65px;
+    background-image: url("resources/payment_method_images/paypal_img.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pm2 {
+    height: 65px;
+    background-image: url("resources/payment_method_images/visa_img.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pm3 {
+    height: 65px;
+    background-image: url("resources/payment_method_images/mastercard_img.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pm4 {
+    height: 65px;
+    background-image: url("resources/payment_method_images/american_express_img.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* Pagination */
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+
+/* Pagination */
+
+.side {
+    display: flex;
+    position: absolute;
+    margin-left: 500px;
+}
+
+.bg-1 {
+    background-color: rgb(204, 255, 255);
+}
+
+.header-pic {
+    background-image: url("Resources/Header-Pic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* all Products Card */
+
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap');
+
+/* collection */
+
+.active-filter-btn {
+    background-color: var(--pink)!important;
+    color: #fff!important;
+    border-color: var(--pink)!important;
+}
+
+.filter-button-group .btn:hover {
+    color: #fff!important;
+}
+
+.collection-img span {
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+
+/* special */
+
+.special-img span {
+    top: 20px;
+    right: 20px;
+}
+
+.special-list .btn {
+    padding: 8px 20px!important;
+}
+
+.special-img img {
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.special-img:hover img {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+/* media queries */
+
+@media(min-width: 992px) {
+    .nav-item {
+        border-bottom: none;
+    }
+}
+
+
+/* all Products Card */
+
+
+/* Advanced Search */
+
+body {
+    background-color: #00838F;
+}
+
+.advanced {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btn-secondary,
+.btn-secondary:focus,
+.btn-secondary:active {
+    color: #fff;
+    background-color: #00838f !important;
+    border-color: #00838f !important;
+    box-shadow: none;
+}
+
+.advanced {
+    color: #00838f !important;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid #00838f;
+}
+
+
+/* Advanced Search */
+
+
+/* Cart */
+
+@media (min-width: 1025px) {
+    .h-custom {
+        height: 100vh !important;
+    }
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+.bg-grey {
+    background-color: #eae8e8;
+}
+
+@media (min-width: 992px) {
+    .card-registration-2 .bg-grey {
+        border-top-right-radius: 16px;
+        border-bottom-right-radius: 16px;
+    }
+}
+
+@media (max-width: 991px) {
+    .card-registration-2 .bg-grey {
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+    }
+}
+
+
+/* Cart */
